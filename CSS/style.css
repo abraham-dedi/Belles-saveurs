@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Lora&family=Roboto:wght@400;500&family=Source+Sans+3:wght@200;400&display=swap');
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/cards.css");
+
+
+body{
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin:0px;
+	background-color:rgba(251, 223, 88,0.1);
+}
+
+h1,h2,h3 {
+	font-family:'Roboto',sans serif;
+	font-weight: bold;
+}
+
+a{
+	text-decoration:none;
+	margin-top: 10px;
+}
+
+.list-inline {
+	list-style: none;
+	margin:0px auto;
+	width: fit-content;
+}
+
+.list-inline i {
+	font-size: 70px;
+	color:#4a3129;
+}
+
+.list-inline i:hover {
+		color:black;
+}
+
+.abonnement-centre {
+	background-color: rgba(251, 223, 88,0.9);
+    width: auto;
+    height: 200px;
+}
+
+.abonnement-centre h1{
+    font-size: 35px;
+    font-family: 'Source Sans 3', sans serif;
+    font-weight: 800;
+    opacity: 1;
+    color: #4a3129;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,33 @@
+.banner{
+	background-image: linear-gradient(131deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 50%), url(../../images/bellessaveurs.jpg);
+    color: white;
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    color: #dc981d;
+    font-family: 'Source Sans 3', sans serif;
+    font-size: 60px;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 6px 6px black;
+}
+
+.banner p {
+    margin: 0px;
+    padding-left: 280px;
+    font-size: 30px;
+    font-family: Corinthia;
+    font-weight: 500;
+    color: #FFFEA9;		
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-family:'Source Sans 3', sans serif;
+	font-weight: 200;
+	opacity:1;
+	margin-bottom: 40px
+}
